@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://media.wired.com/photos/5ba3f5bfa8af293117556041/master/w_2400,c_limit/SyncronizedClocks-166311698-(1).jpg");
+}
+
+#header {
+    background-color: #f2e8df;
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #1d1d1d;
+    font-family: "Lora";
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+
+#clock-face {
+    border: 20px solid rgb(214, 214, 214);
+    border-radius: 50%;
+    height: 100%;
+    box-shadow: 0 0 15px black;
+}
+
+.hand {
+    background-color: rgb(71, 71, 71);
+    width: 50%;
+    height: 4px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform-origin: 100%;
+}
+
+.sec-hand {
+    background-color: rgb(202, 62, 62);
+}
+
+.min-hand {
+    background-color: rgb(85, 85, 85);
+}
+
+.hr-hand {
+    background-color: black;
+}
